@@ -1,35 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T14:25:09.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="WArt1kVjXO0u82uIANMa" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T02:27:35.033Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="XEyehBz2rodzSoH5PufV" version="21.7.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1358" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1991" dy="2828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="adF5d4ZAmyr8IWEaQVo5-3" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;fillColor=undefined;strokeColor=#c4c4c4;strokeWidth=1.0;swimlaneFillColor=#804020" vertex="1" parent="1">
+        <mxCell id="adF5d4ZAmyr8IWEaQVo5-3" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;strokeWidth=1.0;swimlaneFillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="-1040" width="360" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="adF5d4ZAmyr8IWEaQVo5-4" value="tbplano_de_curso_id integer primary key&lt;br&gt;tbfuncionarios_id integer foreign key&lt;br&gt;tbplano_de_curso_titulo string&amp;nbsp;&lt;br&gt;tbplano_de_curso_observacao longtext&lt;br&gt;created_at datetime&lt;br&gt;updated_at datetime&lt;br&gt;deleted_at datetime&lt;br&gt;tbperiododeavaliacao_id integer foreign key&lt;br&gt;tbplano_de_curso_areas_do_conhecimento string" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#c4c4c4" vertex="1" parent="adF5d4ZAmyr8IWEaQVo5-3">
+        <mxCell id="adF5d4ZAmyr8IWEaQVo5-4" value="tbplano_de_curso_id integer primary key&lt;br&gt;tbfuncionarios_id integer foreign key&lt;br&gt;tbplano_de_curso_titulo string&amp;nbsp;&lt;br&gt;tbplano_de_curso_observacao longtext&lt;br&gt;created_at datetime&lt;br&gt;updated_at datetime&lt;br&gt;deleted_at datetime&lt;br&gt;tbperiododeavaliacao_id integer foreign key&lt;br&gt;tbplano_de_curso_areas_do_conhecimento string" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;" parent="adF5d4ZAmyr8IWEaQVo5-3" vertex="1">
           <mxGeometry x="2" y="31.67" width="358" height="148.33" as="geometry" />
         </mxCell>
-        <mxCell id="adF5d4ZAmyr8IWEaQVo5-5" value="tbplano_de_curso" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" vertex="1" parent="adF5d4ZAmyr8IWEaQVo5-3">
-          <mxGeometry y="4" width="256" height="22" as="geometry" />
+        <mxCell id="adF5d4ZAmyr8IWEaQVo5-5" value="&lt;font color=&quot;#000000&quot;&gt;tbplano_de_curso&lt;/font&gt;" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" parent="adF5d4ZAmyr8IWEaQVo5-3" vertex="1">
+          <mxGeometry y="4" width="360" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="adF5d4ZAmyr8IWEaQVo5-6" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;fillColor=undefined;strokeColor=#c4c4c4;strokeWidth=1.0;swimlaneFillColor=#804020" vertex="1" parent="1">
+        <mxCell id="adF5d4ZAmyr8IWEaQVo5-6" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;fillColor=none;strokeColor=#000000;strokeWidth=1.0;swimlaneFillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="-800" width="360" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="adF5d4ZAmyr8IWEaQVo5-7" value="tbplano_de_curso_habilidades_integer primary key&lt;br&gt;tbplano_de_curso_id integer foreign key&lt;br&gt;tbbase_curricular_id foreign key&lt;br&gt;created_at datetime&lt;br&gt;updated_at datetime&lt;br&gt;deleted_at datetime&lt;br&gt;cp integer&lt;br&gt;bncc integer&lt;br&gt;cm integer" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#c4c4c4" vertex="1" parent="adF5d4ZAmyr8IWEaQVo5-6">
+        <mxCell id="adF5d4ZAmyr8IWEaQVo5-7" value="&lt;font color=&quot;#000000&quot;&gt;tbplano_de_curso_habilidades_integer primary key&lt;br&gt;tbplano_de_curso_id integer foreign key&lt;br&gt;tbbase_curricular_id foreign key&lt;br&gt;created_at datetime&lt;br&gt;updated_at datetime&lt;br&gt;deleted_at datetime&lt;br&gt;cp integer&lt;br&gt;bncc integer&lt;br&gt;cm integer&lt;/font&gt;" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#c4c4c4" parent="adF5d4ZAmyr8IWEaQVo5-6" vertex="1">
           <mxGeometry x="2" y="31.67" width="358" height="157" as="geometry" />
         </mxCell>
-        <mxCell id="adF5d4ZAmyr8IWEaQVo5-8" value="tbplano_de_curso_habilidades" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" vertex="1" parent="adF5d4ZAmyr8IWEaQVo5-6">
-          <mxGeometry y="4" width="207" height="22" as="geometry" />
+        <mxCell id="adF5d4ZAmyr8IWEaQVo5-8" value="&lt;font color=&quot;#000000&quot;&gt;tbplano_de_curso_habilidades&lt;/font&gt;" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" parent="adF5d4ZAmyr8IWEaQVo5-6" vertex="1">
+          <mxGeometry y="4" width="360" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="adF5d4ZAmyr8IWEaQVo5-12" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;fillColor=undefined;strokeColor=#c4c4c4;strokeWidth=1.0;swimlaneFillColor=#804020" vertex="1" parent="1">
+        <mxCell id="adF5d4ZAmyr8IWEaQVo5-12" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;fillColor=none;strokeColor=#000000;strokeWidth=1.0;swimlaneFillColor=none;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="-560" width="360" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="adF5d4ZAmyr8IWEaQVo5-13" value="tbbase_curricular_id integer primary key&lt;br&gt;disciplina integer foreign key&lt;br&gt;origem lontext&amp;nbsp;&lt;br&gt;etapa longtext&lt;br&gt;mapa_turma integer&lt;br&gt;conjunto longtext&lt;br&gt;ativo integer&lt;br&gt;componente longtext&lt;br&gt;ano_faixa longtext&lt;br&gt;campo_atuacao longtext&lt;br&gt;pratica_linguagem longtext&lt;br&gt;objeto_conhecimento longtext&lt;br&gt;codigo longtext&lt;br&gt;habilidade longtext&lt;br&gt;created_at datetime&lt;br&gt;updated_at datetime&lt;br&gt;deleted_at datetime&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#c4c4c4" vertex="1" parent="adF5d4ZAmyr8IWEaQVo5-12">
+        <mxCell id="adF5d4ZAmyr8IWEaQVo5-13" value="&lt;font color=&quot;#000000&quot;&gt;tbbase_curricular_id integer primary key&lt;br&gt;disciplina integer foreign key&lt;br&gt;origem lontext&amp;nbsp;&lt;br&gt;etapa longtext&lt;br&gt;mapa_turma integer&lt;br&gt;conjunto longtext&lt;br&gt;ativo integer&lt;br&gt;componente longtext&lt;br&gt;ano_faixa longtext&lt;br&gt;campo_atuacao longtext&lt;br&gt;pratica_linguagem longtext&lt;br&gt;objeto_conhecimento longtext&lt;br&gt;codigo longtext&lt;br&gt;habilidade longtext&lt;br&gt;created_at datetime&lt;br&gt;updated_at datetime&lt;br&gt;deleted_at datetime&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#c4c4c4" parent="adF5d4ZAmyr8IWEaQVo5-12" vertex="1">
           <mxGeometry x="2" y="31.67" width="358" height="268.33" as="geometry" />
         </mxCell>
-        <mxCell id="adF5d4ZAmyr8IWEaQVo5-14" value="tbbase_curricular" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" vertex="1" parent="adF5d4ZAmyr8IWEaQVo5-12">
-          <mxGeometry y="4" width="146" height="22" as="geometry" />
+        <mxCell id="adF5d4ZAmyr8IWEaQVo5-14" value="&lt;font color=&quot;#000000&quot;&gt;tbbase_curricular&lt;/font&gt;" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" parent="adF5d4ZAmyr8IWEaQVo5-12" vertex="1">
+          <mxGeometry y="4" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="QgI2FyBvnnxtlFc-VbqB-6" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;fillColor=none;strokeColor=#000000;strokeWidth=1.0;swimlaneFillColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1240" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QgI2FyBvnnxtlFc-VbqB-7" value="&lt;font color=&quot;#000000&quot;&gt;tbplano_de_curso_turmas_id integer primary key&lt;br&gt;tbplano_de_curso_id integer foreign key&lt;br&gt;tbturmas_id integer foreing key&lt;br&gt;created_at datetime&lt;br&gt;updated_at datetime&lt;br&gt;deleted_at datetime&lt;/font&gt;" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#c4c4c4;swimlaneFillColor=none;strokeColor=none;" vertex="1" parent="QgI2FyBvnnxtlFc-VbqB-6">
+          <mxGeometry x="2" y="31.67" width="358" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QgI2FyBvnnxtlFc-VbqB-8" value="&lt;font color=&quot;#000000&quot;&gt;tbplano_de_curso_turmas&lt;/font&gt;" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff;swimlaneFillColor=none;strokeColor=none;" vertex="1" parent="QgI2FyBvnnxtlFc-VbqB-6">
+          <mxGeometry y="4" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="QgI2FyBvnnxtlFc-VbqB-208" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;fillColor=none;strokeColor=#000000;strokeWidth=1.0;swimlaneFillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="-1240" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QgI2FyBvnnxtlFc-VbqB-209" value="&lt;font color=&quot;#000000&quot;&gt;tbturmas_id integer primary key&lt;br&gt;tbturmas_descricao string&amp;nbsp;&lt;br&gt;tbturmas_descricao_prodesp string&lt;br&gt;tbturmas_codigo string&lt;br&gt;tbturmas_ativo integer&amp;nbsp;&lt;br&gt;tbescolas_id integer foreign key&lt;br&gt;...&lt;br&gt;created_at datetime&lt;br&gt;updated_at datetime&lt;br&gt;deleted_at&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;datetime&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#c4c4c4" vertex="1" parent="QgI2FyBvnnxtlFc-VbqB-208">
+          <mxGeometry x="2" y="31.67" width="258" height="168.33" as="geometry" />
+        </mxCell>
+        <mxCell id="QgI2FyBvnnxtlFc-VbqB-210" value="&lt;font color=&quot;#000000&quot;&gt;tbturmas&lt;/font&gt;" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" vertex="1" parent="QgI2FyBvnnxtlFc-VbqB-208">
+          <mxGeometry y="4" width="270" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
