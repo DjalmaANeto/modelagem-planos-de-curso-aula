@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T21:32:13.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="EGFEUDIcdpWjFAb4rEf0" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T21:43:52.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="sxmhI4VynoD6JZUnSavA" version="21.7.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1426" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -97,14 +97,23 @@
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-29" value="customer_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FihGMdg51Uu1A-bptJt_-3" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;fillColor=none;strokeColor=#c4c4c4;strokeWidth=1.0;swimlaneFillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-760" width="273.52" height="150" as="geometry" />
+        <mxCell id="FihGMdg51Uu1A-bptJt_-3" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;fillColor=none;strokeColor=#000000;strokeWidth=1.0;swimlaneFillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-1040" width="273.52" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="FihGMdg51Uu1A-bptJt_-4" value="&lt;font color=&quot;#ffffff&quot;&gt;tbplano_de_aula_plano_de_curso_id&lt;br&gt;tbplano_de_curso_id&lt;br&gt;tbplano_de_aula_id&lt;br&gt;created_at&lt;br&gt;updated_at&lt;br&gt;deleted_at&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/font&gt;" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#c4c4c4" vertex="1" parent="FihGMdg51Uu1A-bptJt_-3">
+        <mxCell id="FihGMdg51Uu1A-bptJt_-4" value="&lt;font color=&quot;#000000&quot;&gt;tbplano_de_aula_plano_de_curso_id&lt;br&gt;tbplano_de_curso_id&lt;br&gt;tbplano_de_aula_id&lt;br&gt;created_at&lt;br&gt;updated_at&lt;br&gt;deleted_at&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/font&gt;" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#c4c4c4" vertex="1" parent="FihGMdg51Uu1A-bptJt_-3">
           <mxGeometry x="2" y="31.66796875" width="222" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FihGMdg51Uu1A-bptJt_-5" value="tbplano_de_aula_plano_de_curso" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" vertex="1" parent="FihGMdg51Uu1A-bptJt_-3">
-          <mxGeometry y="4" width="222" height="22" as="geometry" />
+        <mxCell id="FihGMdg51Uu1A-bptJt_-5" value="&lt;font color=&quot;#000000&quot;&gt;tbplano_de_aula_plano_de_curso&lt;/font&gt;" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" vertex="1" parent="FihGMdg51Uu1A-bptJt_-3">
+          <mxGeometry x="25.76" width="222" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="FihGMdg51Uu1A-bptJt_-7" style="graphMlID=entity0;gradientDirection=east;shape=swimlane;startSize=30;rounded=1;arcSize=5;collapsible=0;fillColor=none;strokeColor=#000000;strokeWidth=1.0;swimlaneFillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-840" width="234.76" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FihGMdg51Uu1A-bptJt_-8" value="&lt;font color=&quot;#000000&quot;&gt;tbplano_de_aula_id&lt;br&gt;tbturmas_id&lt;br&gt;tbplano_de_curso_id&lt;br&gt;tbfuncionarios_id&lt;br&gt;tbperiodos_id&lt;br&gt;tbperiododeavaliacao_id&lt;br&gt;tbplano_de_aula_titulo&lt;br&gt;tbplano_de_aula_qtd_aulas&lt;br&gt;tbplano_de_aula_metodologia&lt;br&gt;tbplano_de_aula_recursos&lt;br&gt;tbplano_de_aula_avaliacao&lt;br&gt;tbplano_de_aula_inicio&lt;br&gt;tbplano_de_aula_fim&lt;br&gt;created_at&lt;br&gt;updated_at&lt;br&gt;deleted_at&lt;br&gt;tbplano_de_aula_cor_principal&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/font&gt;" style="text;html=1;spacing=0;align=left;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#c4c4c4" vertex="1" parent="FihGMdg51Uu1A-bptJt_-7">
+          <mxGeometry x="2" y="31.67" width="189" height="258.33" as="geometry" />
+        </mxCell>
+        <mxCell id="FihGMdg51Uu1A-bptJt_-9" value="&lt;font color=&quot;#000000&quot;&gt;tbplano_de_aula&lt;/font&gt;" style="text;html=1;spacing=0;align=center;fontFamily=courier;fontSize=12;fontStyle=0;=center;fontColor=#ffffff" vertex="1" parent="FihGMdg51Uu1A-bptJt_-7">
+          <mxGeometry x="22.88" width="189" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
